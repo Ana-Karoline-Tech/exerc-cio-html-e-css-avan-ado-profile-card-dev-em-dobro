@@ -1,80 +1,74 @@
-# Profile Card - Exercício HTML + CSS Avançado
+# Exercício HTML + CSS Avançado - Parte 1 - Gerador de Conselhos
 
 ## 📋 Descrição
 
-Este é o **primeiro exercício de HTML e CSS** do curso **Dev em Dobro**. O exercício é uma **alternativa** ao desafio do Frontend Mentor, focado na criação de um cartão de perfil responsivo e moderno. O principal objetivo é aprimorar as habilidades de posicionamento de elementos utilizando **Flexbox**.
+Este é um exercício do curso **Dev em Dobro** baseado no desafio **Frontend Mentor | Advice generator app coding challenge**. O principal objetivo é construir o front-end de um aplicativo que gere conselhos aleatórios, desenvolvendo habilidades de HTML e CSS avançado.
+
+Nesta primeira etapa do exercício, será realizada apenas a **construção do HTML e CSS**, criando um layout próximo ao design proposto pelo Frontend Mentor.
 
 ## 🎯 Objetivos de Aprendizado
 
-- Praticar e dominar o uso do **Flexbox** para layout
-- Criar componentes responsivos
-- Aplicar boas práticas de HTML semântico
-- Desenvolver habilidades de estilização com CSS avançado
-- Trabalhar com posicionamento e alinhamento de elementos
+- Replicar um design profissional com precisão
+- Praticar estruturação semântica de HTML
+- Aplicar técnicas avançadas de CSS
+- Desenvolver layout responsivo
+- Trabalhar com posicionamento e alinhamento
+- Preparar base para futuras funcionalidades JavaScript
 
 ## 🛠️ Tecnologias Utilizadas
 
 - **HTML5** - Estrutura semântica
-- **CSS3** - Estilização e layout
-- **Flexbox** - Sistema de posicionamento
+- **CSS3** - Estilização avançada e layout
+- **Flexbox/Grid** - Sistema de posicionamento
+- **Responsive Design** - Adaptação para diferentes telas
 
 ## 📦 Estrutura do Projeto
 
 ```
-profile-card/
+advice-generator/
 ├── index.html
 ├── style.css
 ├── assets/
-│   └── images/
+│   ├── images/
+│   │   ├── icon-dice.svg
+│   │   └── pattern-divider-desktop.svg
+│   └── fonts/
 └── README.md
 ```
 
-## 🚀 Funcionalidades
+## 🎨 Layout e Design
 
-- [x] Cartão de perfil centralizado
-- [x] Layout responsivo
-- [x] Uso extensivo de Flexbox
-- [x] Design moderno e limpo
-- [x] Informações de perfil organizadas
-- [x] Compatibilidade cross-browser
+O aplicativo gerador de conselhos contém:
 
-## 💡 Conceitos Aplicados
+- **Card principal** - Container centralizado para o conselho
+- **Número do conselho** - Identificação única do conselho
+- **Texto do conselho** - Área para exibir o conselho gerado
+- **Divisor decorativo** - Elemento visual de separação
+- **Botão gerador** - Botão com ícone de dado para gerar novos conselhos
+- **Design responsivo** - Adaptação para mobile e desktop
 
-### Flexbox
-- `display: flex`
-- `justify-content`
-- `align-items`
-- `flex-direction`
-- `flex-wrap`
-- `gap`
+## 🚀 Funcionalidades (Primeira Etapa)
 
-### CSS Avançado
-- Posicionamento de elementos
-- Responsividade
-- Pseudo-elementos
-- Transições suaves
-- Box-shadow e border-radius
-
-## 🎨 Layout
-
-O cartão de perfil contém:
-- **Imagem de perfil** - Foto do usuário
-- **Informações pessoais** - Nome, profissão, localização
-- **Estatísticas** - Seguidores, seguindo, projetos
-- **Botões de ação** - Links para redes sociais
+- [x] Layout estático conforme design do Frontend Mentor
+- [x] Estrutura HTML semântica
+- [x] Estilização CSS completa
+- [x] Design responsivo
+- [x] Elementos visuais (ícones, divisores)
+- [x] Hover effects nos botões
+- [ ] Funcionalidade JavaScript (próxima etapa)
 
 ## 📱 Responsividade
 
-O design se adapta para diferentes tamanhos de tela:
-- **Desktop** - Layout horizontal completo
-- **Tablet** - Ajustes de proporção
+O design se adapta para diferentes dispositivos:
+- **Desktop** - Layout completo com espaçamentos adequados
+- **Tablet** - Ajustes de proporção e tamanhos
 - **Mobile** - Layout otimizado para telas pequenas
 
 ## 🔧 Como Executar
 
 1. Clone ou faça download do projeto
 2. Abra o arquivo `index.html` no navegador
-3. Ou use um servidor local como Live Server
+3. Ou utilize um servidor local como Live Server
 
 ```bash
 # Exemplo com Live Server (VS Code)
@@ -82,34 +76,51 @@ O design se adapta para diferentes tamanhos de tela:
 # Selecione "Open with Live Server"
 ```
 
-## 📚 Aprendizados
+## 🎯 Desafio Frontend Mentor
 
-Este exercício proporcionou prática com:
-- Estruturação semântica de HTML
-- Uso avançado de Flexbox para layouts complexos
-- Técnicas de centralização de elementos
-- Criação de componentes reutilizáveis
-- Desenvolvimento responsivo mobile-first
+Este projeto é baseado no desafio [Advice generator app](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db) do Frontend Mentor, adaptado para o curso Dev em Dobro.
 
-## 🌟 Próximos Passos
+### Requisitos do Desafio:
+- Ver o layout ideal dependendo do tamanho da tela do dispositivo
+- Ver estados de hover para elementos interativos
+- Gerar um novo conselho clicando no botão de dados (próxima etapa)
 
-Possíveis melhorias e extensões:
-- [ ] Adicionar animações CSS
-- [ ] Implementar tema escuro
-- [ ] Adicionar mais informações de perfil
-- [ ] Criar versão com CSS Grid
-- [ ] Adicionar interatividade com JavaScript
+## 📚 Conceitos Aplicados
+
+### HTML
+- Estrutura semântica
+- Acessibilidade básica
+- Organização hierárquica
+
+### CSS Avançado
+- Flexbox para centralização
+- CSS Grid para layout
+- Custom properties (variáveis CSS)
+- Pseudo-elementos e pseudo-classes
+- Media queries para responsividade
+- Transições e animações suaves
+
+## 🌟 Próximos Passos (Parte 2)
+
+Na próxima etapa do exercício será implementado:
+- [ ] Integração com API de conselhos
+- [ ] Funcionalidade JavaScript
+- [ ] Geração de conselhos aleatórios
+- [ ] Animações de carregamento
+- [ ] Estados de erro e loading
 
 ## 🤝 Contribuição
 
-Este é um projeto de estudos, mas sugestões e melhorias são sempre bem-vindas!
+Este é um projeto de estudos do curso Dev em Dobro. Sugestões e melhorias são bem-vindas!
 
-## 📄 Licença
+## 📄 Recursos
 
-Este projeto está sob a licença MIT - veja os detalhes em [LICENSE](LICENSE).
+- [Frontend Mentor](https://www.frontendmentor.io/) - Plataforma de desafios
+- [Advice Slip API](https://api.adviceslip.com/) - API para próxima etapa
 
 ---
 
-**Primeiro exercício HTML + CSS do curso Dev em Dobro** 🚀
+**Exercício HTML + CSS Avançado - Curso Dev em Dobro** 🚀
 
-![image](https://github.com/user-attachments/assets/ee11da10-c8d1-425c-99b4-cb230f512192)
+![image](https://github.com/user-attachments/assets/e6370a28-e396-4926-bac0-5a79a75c1ef5)
+
